@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="form-container">
+    <div class="form-zone">
+        <div class="input-container">
+            <label for="account">Account</label>
+        </div>
+        <div class="input-container">
+<!--            <i class="fas fa-user input-icon"></i>-->
+            <input type="text" id="fullname" name="fullname" placeholder="Full Name">
+        </div>
+        <div class="input-container">
+<!--            <i class="fas fa-envelope input-icon"></i>-->
+            <input type="email" id="email"  name="email" placeholder="Email address">
+        </div>
+        <div class="input-container">
+<!--            <i class="fas fa-lock input-icon"></i>-->
+            <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+    </div>
+
+    <div class="form-zone">
+        <div class="input-container-collumn">
+            <div class="column-left">
+                <label for="dob">Date of Birth</label>
+                <div class="dob-container">
+                    <input type="text" id="day" placeholder="DD">
+                    <input type="text" id="month" placeholder="MM">
+                    <input type="text" id="year" placeholder="YYYY">
+                </div>
+            </div>
+            <div class="column-right">
+                <label for="gender">Gender</label>
+                <div class="gender-container">
+                    <button class="gender-button" id="male" value="male">Male</button>
+                    <button class="gender-button" id="female" value="female">Female</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-zone">
+        <div class="input-container">
+            <label for="paymentdetail">Payment detail</label>
+        </div>
+        <div class="input-container-column">
+            <div class="column-left">
+                <button  class="payment-button">Credit Card</button>
+            </div>
+            <div class="column-right">
+                <button class="payment-button">Paypal</button>
+            </div>
+        </div>
+        <div class ="input-container">
+            <input type="text" id="card-number" placeholder="Card number">
+
+        </div>
+        <div class="input-container-inline">
+            <div class="cvc-container">
+                <input type="text" id="card-cvc" placeholder="Card CVC">
+            </div>
+            <div class="buttons-container">
+                <button>Day & Month</button>
+                <button>Year</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-zone terms-row">
+        <div class="input-container">
+            <label for="tad">Terms and Conditions </label>
+        </div>
+        <div>
+        <input type="checkbox" id="terms"> I accept Terms and Conditions for signing up to this deivce, and here by confirm I have read the privacy policy.
+    </div>
+    </div>
+</div>
+</body>
+</html>

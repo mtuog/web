@@ -1,0 +1,92 @@
+/* CSS for centering the form and other styles */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.form-title {
+    font-size: 35px;
+    color: #735578;
+}
+
+.form-group {
+    margin: 20px 70px auto 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-decoration-color: #735578;
+    font-weight: bold;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color:#9A869E;
+    font-weight: bold;
+    font-size: 15px;
+}
+.submit-button {
+    display: inline-block;
+    padding: 15px 70px;
+    background-color: #BD59D7;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 50px;
+}
+
+.submit-button:hover {
+    background-color: #555;
+}
+
+.or-login-with {
+    font-size: 16px;
+    margin: 15px 0;
+    margin-top: 50px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons img {
+    width: 30px; /* Set the desired width */
+    height: 30px; /* Set the desired height */
+    border-radius: 100%; /* Make the images circular (if desired) */
+    transition: transform 0.3s ease; /* Add a hover effect */
+    background-color: rgba(221, 221, 221, 0.58);
+}
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+.social-icons img:hover {
+    transform: scale(1.5);
+}
+
+.sign-up {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: -10px;
+    color: #735578;
+}
+
+.sign-up:hover {
+    color: rgb(201, 111, 199);
+}

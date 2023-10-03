@@ -1,0 +1,76 @@
+.form-title {
+    text-align: center;
+}
+
+/* CSS for form container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* CSS for form fields and labels */
+.form-group {
+    margin: 15px 35px 15px 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* CSS for the service dropdown */
+.service-dropdown {
+    position: relative;
+}
+
+.service-dropdown:hover .service-options {
+    display: block;
+}
+
+.service-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.service-options a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.service-options a:hover {
+    background-color: #ddd;
+}
+
+/* CSS for the submit button */
+.submit-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 108%;
+}
+

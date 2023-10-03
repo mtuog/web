@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 0px ;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh; /* Chiếm toàn bộ chiều cao của màn hình */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #CCC;
+    padding: 30px;
+    text-align: left;
+    font-size: 35px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    flex: 1;
+    background: #ffe69c;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+footer {
+    background-color: #CCC;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
