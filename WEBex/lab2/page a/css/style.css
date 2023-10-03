@@ -1,0 +1,340 @@
+/* Đổi màu nền của phần tiêu đề */
+.header_style {
+    background-color: #FFFFFF; /* Màu xanh dương */
+}
+
+/* Đổi màu văn bản trong tiêu đề */
+.header_style .pix_text {
+    color: #DDDDDD; /* Màu trắng */
+}
+/* Sử dụng Flexbox để chia "one-third column alpha" và "two-thirds column omega" thành hai cột */
+     .header_style .container .sixteen.columns{
+    display: flex;
+    justify-content: space-between; /* Đặt khoảng cách đều giữa các cột */
+}
+
+/* Chia cột bên trái là "one-third column alpha" */
+.one-third.column.alpha {
+    flex: 1; /* Chia một phần ba của không gian */
+    text-align: center;
+}
+
+/* Chia cột bên phải là "two-thirds column omega" */
+.two-thirds.column.omega {
+    flex: 2; /* Chia hai phần ba của không gian */
+}
+/* Sử dụng Flexbox để chia "two-thirds column omega" thành hai cột */
+.two-thirds.column.omega {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Chia cột bên trái là "pix_text" */
+.two-thirds.column.omega .pix_text {
+    flex: 1; /* Chia phần bên trái một phần ba */
+    order: -1;
+}
+
+/* Chia cột bên phải cho 3 thẻ a nằm liền kề */
+.two-thirds.column.omega .social_button {
+    flex: 0; /* Chia phần bên phải hai phần ba */
+    display: flex;
+    order: 1;
+    margin-right: 0px ;
+
+}
+.two-thirds.column.omega .social_button:not(:last-child) {
+    margin-right: 10px; /* Khoảng cách giữa các thẻ <a> */
+}
+
+/*.big_padding {*/
+/*    background-color: rgba(51, 51, 51, 0.87);*/
+/*}*/
+/*.big_padding .container .sixteen.columns {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+/*.big_padding p { color: white;}*/
+/*#section_normal_6 .container {*/
+/*    display: grid;*/
+/*}*/
+/*.pixfort_normal_1 {*/
+/*    background-color: #EEEEEE;*/
+/*}*/
+/* .L1_style,*/
+/*.L2_style  {*/
+/*     display: flex;*/
+/*     justify-content: center;*/
+/*     align-items: center;*/
+/*}*/
+/* .box_1 {*/
+/*     display: flex;*/
+/*     padding: 20px;*/
+/*}*/
+/* .b_style {*/
+/*    flex : 1;*/
+/*     margin-left: -10px;*/
+/* }*/
+/* .txt_style {*/
+/*     flex: 1;*/
+/*     margin-right: -10px;*/
+/* }*/
+/*.box_2 {*/
+/*  display: flex;*/
+/*}*/
+
+
+/*!* Thiết lập footer sử dụng flexbox và flex theo chiều dọc *!*/
+/*#section_agency_5 .foot_st {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center; !* Căn giữa các phần tử theo chiều ngang *!*/
+/*    text-align: center; !* Căn giữa văn bản theo chiều ngang *!*/
+/*    margin-bottom: 10px;*/
+/*    padding: 20px;*/
+/*    ;*/
+/*}*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#section_normal_1 .container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+#section_normal_1 .sixteen.columns {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section_normal_1 .icon-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: darkgray;
+}
+
+#section_normal_1 .icon-box .icons{
+    display: flex;
+    gap: 5px;
+}
+
+#section_normal_4_2 .sixteen.columns {
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 0;
+}
+
+#section_normal_4_2 .sixteen.columns {
+    background-color: #333333;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 0;
+    gap: 40px;
+}
+#section_normal_4_2 .sixteen.columns .eight.columns {
+    display: flex;
+}
+
+#section_normal_4_2 .eight.columns.pix_container{
+    justify-content: flex-end;
+}
+
+#section_normal_4_2 .eight.columns.omega{
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.bold_text {
+    font-weight: bold;
+}
+
+.big_text {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.blue_text {
+    color: #2dc0e8;
+}
+
+.big_title {
+    font-size: 40px;
+    color: white;
+}
+
+.normal_text {
+    font-size: 15px;
+    color: #737373;
+}
+
+.pix_button {
+    padding: 12px 16px;
+    background-color: #2dc0e8;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    border-bottom: 4px solid #249aba;
+    transition: linear 1ms;
+}
+
+.pix_button:hover {
+    border: 0;
+    transform: translate(0, 3px);
+    background-color: #249aba;
+}
+
+#section_normal_6 .envato_unbounce .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    background-color: #eeeeee;
+    padding: 40px 0;
+}
+
+.envato_unbounce .container .L_container {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.L_container .L1_style {
+    color: #696969;
+}
+
+.L_container .L2_style {
+    color: #acacac
+
+}
+
+.eight.columns.stbox {
+    width: 570px;
+    border-radius: 5px;
+    overflow: hidden;
+    filter: drop-shadow(0 3px 0 #dddddd);
+    color: #979797;
+}
+
+.eight.columns.stbox.alpha{
+    justify-self: end;
+}
+
+.eight.columns.stbox.omega{
+    justify-self: start;
+}
+
+.eight.columns.stbox .pix_builder_bg{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #ffffff;
+}
+
+.eight.columns.stbox .pix_builder_bg .b_style{
+    background-color: #f5f5f5;
+    padding: 20px 10px;
+}
+
+.eight.columns.stbox .pix_builder_bg .txt_style{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.b_style img.logo_style {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.stars_span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.env_st .pix_text {
+    color: #76b3fc;
+}
+
+#section_agency_5 .sixteen.columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 40px;
+    padding: 50px 0;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #acacac;
+}
+
+.sixteen.columns .f1_style {
+    font-size: 30px;
+    font-weight: 350;
+    color: #609d6c;
+}
+
+.second_link .get_2_btn a:link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #609d6c;
+    border: 3px solid #609d6c;
+    padding: 15px 30px;
+    border-radius: 3px;
+    transition: ease-out 0.2s;
+}
+
+.second_link .get_2_btn a:link:hover{
+    background-color: #609d6c;
+    color: white;
+}
+
+.pixfort_st {
+    color: #609d6c;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+

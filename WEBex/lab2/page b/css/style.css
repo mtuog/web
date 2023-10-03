@@ -1,0 +1,658 @@
+/*!* Chia cột cho container trong phần light_gray_bg *!*/
+/*.light_gray_bg .container {*/
+/*    display: flex;*/
+/*    justify-content: space-between; !* Chia đều giữa hai cột *!*/
+/*    align-items: center; !* Căn giữa theo chiều dọc *!*/
+/*    padding: 10px;*/
+/*}*/
+
+/*!* Chia cột cho phần logo bên trái *!*/
+/*#section_text_2 .light_gray_bg .container .eight.columns.alpha.mobile_center {*/
+/*    flex: 1; !* Chia một phần ba của không gian *!*/
+/*    padding: 30px;*/
+/*}*/
+
+/*!* Chia cột cho phần nút "Buy Tickets" bên phải *!*/
+/*#section_text_2 .light_gray_bg .container .eight.columns.omega.right_text.mobile_center {*/
+/*    flex: 1; !* Chia một phần ba của không gian *!*/
+/*    padding: 30px;*/
+/*}*/
+/*.header_style .container {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    background-color: rgba(255, 20, 147, 0.46);*/
+/*}*/
+
+/*.header_style .navbar {*/
+/*    display: flex;*/
+/*    margin-right: 20px; !* Điều chỉnh khoảng cách giữa thanh điều hướng và biểu tượng mạng xã hội *!*/
+/*}*/
+
+/*.header_style .navbar-nav {*/
+/*    display: flex;*/
+/*    list-style: none; !* Loại bỏ chấm đầu dòng của danh sách *!*/
+/*    padding: 0;*/
+/*}*/
+
+/*.header_style .navbar-nav li {*/
+/*    margin-right: 20px; !* Điều chỉnh khoảng cách giữa các mục trong thanh điều hướng *!*/
+/*}*/
+
+/*.header_style .navbar-nav li a {*/
+/*    text-decoration: none; !* Loại bỏ gạch chân cho các liên kết *!*/
+/*}*/
+
+/*.header_style .bottom-icons {*/
+/*    display: flex;*/
+/*    list-style: none; !* Loại bỏ chấm đầu dòng của danh sách *!*/
+/*    padding: 0;*/
+/*}*/
+
+/*.header_style .bottom-icons li {*/
+/*    margin-right: 10px; !* Điều chỉnh khoảng cách giữa các biểu tượng mạng xã hội *!*/
+/*}*/
+
+/*.top_padding {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(3, 1fr); !* Chia thành 3 cột bằng Grid *!*/
+/*    gap: 20px; !* Khoảng cách giữa các cột *!*/
+/*    text-align: center; !* Căn giữa nội dung trong mỗi cột *!*/
+/*}*/
+
+/*.one-third {*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.part_st {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.link_3_btn {*/
+/*    margin-top: 10px; !* Khoảng cách từ nút "Join Now" đến phần nội dung dưới *!*/
+/*}*/
+
+
+/*!* Định dạng grid cho phần chứa 3 cột *!*/
+/*#section_intro_title .container {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(3, 1fr); !* Chia thành 3 cột bằng Grid *!*/
+/*    gap: 20px; !* Khoảng cách giữa các cột *!*/
+/*    text-align: center; !* Căn giữa nội dung trong mỗi cột *!*/
+/*}*/
+
+/*!* Định dạng cho mỗi cột *!*/
+/*#section_intro_title .one-third.column {*/
+/*    padding: 20px;*/
+/*}*/
+
+/*!* Định dạng cho các phần nội dung giá vé và tính năng kèm theo *!*/
+/*#section_intro_title .flat_pricing {*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*#section_intro_title .big_title {*/
+/*    font-size: 24px;*/
+/*    color: #333;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*#section_intro_title .light_gray {*/
+/*    color: #888;*/
+/*}*/
+
+/*#section_intro_title .flat_pricing_list {*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*}*/
+
+/*#section_intro_title .flat_pricing_list li {*/
+/*    margin-bottom: 5px;*/
+/*}*/
+
+/*!* Định dạng cho nút "Buy Tickets Now" *!*/
+/*#section_intro_title .pix_button {*/
+/*    display: inline-block;*/
+/*    padding: 10px 20px;*/
+/*    background-color: #007BFF;*/
+/*    color: #fff;*/
+/*    text-decoration: none;*/
+/*    border-radius: 5px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*!* Hover effect cho nút *!*/
+/*#section_intro_title .pix_button:hover {*/
+/*    background-color: #0056b3;*/
+/*}*/
+
+
+
+/*#section_party_3 .container {*/
+/*    border: 1px solid rgba(79, 121, 175, 0.88);*/
+/*    background-color: rgba(51, 51, 51, 0.7);*/
+/*    text-decoration-color: white;*/
+/*}*/
+/*!* Định dạng phần "GET YOUR TICKET NOW!" *!*/
+/*#section_party_3 .headtext_style {*/
+/*    text-align: center;*/
+/*    font-size: 24px;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*#section_party_3 .subtext_style {*/
+/*    text-align: center;*/
+/*    color: rgba(51, 51, 51, 0.67);*/
+/*}*/
+/*!* Định dạng trường đăng ký và nút "Subscribe" *!*/
+/*#section_party_3 .contact_st {*/
+/*    text-align: center;*/
+/*    margin-top: 20px;*/
+/*    padding: 20px; !* Thêm padding để tạo khoảng cách từ nền trắng chung *!*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*#section_party_3 form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*#section_party_3 input[type="text"],*/
+/*#section_party_3 input[type="email"] {*/
+/*    padding: 10px;*/
+/*    margin: 5px;*/
+/*    border: 1px solid rgba(51, 51, 51, 0.99);*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*#section_party_3 .subscribe_btn {*/
+/*    padding: 10px ;*/
+/*    background-color: #007BFF;*/
+/*    color: #fff;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*!* Định dạng phần confirm_page *!*/
+/*.confirm_page {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    list-style: none; !* Loại bỏ chấm đầu dòng của danh sách *!*/
+/*    padding: 0;*/
+/*    background-color: #f2f2f2; !* Chọn màu nền xám *!*/
+/*     !* Thêm padding để tạo khoảng cách từ nền trắng chung *!*/
+/*    border: 1px solid #ccc; !* Thêm viền xám cho toàn bộ phần confirm_page *!*/
+/*    border-radius: 5px;*/
+/*    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); !* Thêm shadow nhẹ *!*/
+/*    text-align: center; !* Căn giữa nội dung theo chiều ngang *!*/
+/*    margin: 0 auto; !* Căn giữa theo chiều ngang *!*/
+
+/*}*/
+
+/*.seven.columns.alpha,*/
+/*.nine.columns.omega {*/
+/*    display: inline-block;*/
+/*    width: 50%; !* Chia đôi không gian theo chiều ngang *!*/
+/*    vertical-align: top; !* Hiển thị chúng cùng một hàng *!*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+/*.sixteen.columns {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --default-width: 1000px;
+    --gray: #f8f4f4;
+    --blue: #2dc0e8;
+    --orange: #f77825;
+    --gray-text: #7f7f7f;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Section text */
+
+#section_text_2 {
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray);
+    padding: 20px 0;
+}
+
+#section_text_2 .container {
+    width: var(--default-width);
+    display: flex;
+    justify-content: space-between;
+}
+
+#section_text_2 .alpha {
+    display: flex;
+    align-items: center;
+}
+
+#section_text_2 .omega a:link{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--orange);
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Section header */
+#section_header_1 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#section_header_1 nav {
+    width: var(--default-width);
+    /* background-color: rgb(50, 159, 255); */
+}
+
+#section_header_1 nav .containerss {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    color: var(--gray-text);
+}
+
+a.pi:link {
+    color: var(--gray-text);
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: ease-in-out 0.2s;
+    font-size: 20px;
+}
+
+a.pi:link:hover {
+    color: var(--orange);
+}
+
+.containerss ul.navbar-left {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.containerss ul.navbar-left a:link{
+    text-decoration: none;
+    color: var(--gray-text);
+    font-weight: bold;
+}
+
+.containerss ul.navbar-left a:link:hover{
+    color: var(--orange);
+}
+
+ul.bottom-icons {
+    gap: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.containerss #navbar-collapse-02 {
+    display: flex;
+    align-items: center;
+}
+
+/* Section slider */
+#section_slider {
+    background-color: var(--gray);
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+#section_slider .carousel-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+#section_slider #myCarousel {
+    width: var(--default-width);
+    overflow-x: hidden;
+    position: relative;
+}
+
+#myCarousel .carousel-inner .item {
+    width: var(--default-width);
+    position: relative;
+}
+
+#myCarousel .carousel-inner .item::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    /* background-color: #f77825; */
+    box-shadow: inset 0px -70px 60px 5px rgba(0,0,0,0.9)
+}
+
+#myCarousel .carousel-inner .item img {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+#myCarousel .carousel-inner .carousel-caption {
+    bottom: 30px;
+    left: 40px;
+    position: absolute;
+    color: white;
+    z-index: 1;
+}
+
+#myCarousel .carousel-indicators {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    color: #2b2a2a;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#myCarousel .carousel-indicators .active{
+    color: white;
+}
+
+#myCarousel .carousel-indicators li:hover{
+    color: white;
+}
+
+#myCarousel a:link {
+    position: absolute;
+    top: 50%;
+    text-decoration: none;
+}
+
+#myCarousel a.right:link {
+    right: 10px;
+}
+
+#myCarousel a.left:link {
+    left: 10px;
+}
+
+#myCarousel .fui-arrow-right::before {
+    font-family: 'Font Awesome 6 Free';
+    content: "\f138";
+    font-weight: 900;
+    font-size: 50px;
+    color: #ffffffb4;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    transform: translateY(-50%);
+}
+
+#myCarousel .carousel-control:hover::before {
+    color: white;
+}
+
+#myCarousel .fui-arrow-left::before {
+    font-family: 'Font Awesome 6 Free';
+    content: "\f137";
+    font-weight: 900;
+    font-size: 50px;
+    color: #ffffffb4;
+    position: absolute;
+    top: 0;
+    right: -50px;
+    transform: translateY(-50%);
+}
+
+#section_gym_4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+#section_gym_4 .top_padding {
+    display: flex;
+    justify-content: space-between;
+    width: var(--default-width);
+    gap: 70px;
+}
+
+#section_gym_4 .one-third {
+    text-align: center;
+}
+
+.one-third .img_gym_st img {
+    border-radius: 50%;
+}
+
+.one-third .text_gym_style {
+    margin: 20px 0;
+}
+
+.one-third .gym_st {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.one-third .gym_text {
+    font-size: 15px;
+    color: var(--gray-text);
+    margin-top: 15px;
+}
+
+.one-third .link_3_btn a:link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: var(--orange);
+    border-radius: 5px;
+    color: white;
+}
+
+/* Intro section */
+#section_intro_title {
+    background-color: var(--gray);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+#section_intro_title .container {
+    display: flex;
+    width: var(--default-width);
+    justify-content: space-between;
+    text-align: center;
+}
+
+#section_intro_title .one-third {
+    padding: 30px 60px;
+    background-color: white;
+    border: #dddddd 3px solid;
+    border-radius: 5px;
+}
+
+#section_intro_title .one-third .light_gray {
+    color: var(--gray-text);
+}
+
+#section_intro_title .one-third .blue_text {
+    color: var(--blue);
+}
+
+#section_intro_title .one-third .orange {
+    color: var(--orange);
+}
+
+#section_intro_title .one-third .big_title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#section_intro_title .one-third .flat_pricing_list {
+    list-style: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    color: var(--gray-text);
+    flex-direction: column;
+    gap: 20px;
+}
+
+#section_intro_title .one-third .btn_normal:link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #7f7f7f;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 2px;
+}
+
+#section_intro_title .one-third .btn_normal:link.blue_bg {
+    background-color: var(--blue);
+}
+
+#section_intro_title .one-third .btn_normal:link.orange_bg {
+    background-color: var(--orange);
+}
+
+#hidden_pix_15 {
+    display: none;
+}
+
+#section_party_3 {
+    display: flex;
+    justify-content: center;
+    background-color: #191919;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+#section_party_3 .container {
+    box-sizing: content-box;
+    width: 400px;
+    text-align: center;
+    background-color: #151515;
+    padding: 30px 40px;
+    border: 1px solid #272727;
+}
+
+#section_party_3 .container .text_input .headtext_style {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+}
+
+#section_party_3 .container .text_input .subtext_style {
+    color: var(--gray-text);
+    width: 300px;
+    margin: 0 auto;
+}
+
+#section_party_3 .container .text_input .segment {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#section_party_3 .container .text_input .segment::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 5px;
+    background-color: #1c8ff5;
+}
+
+#section_party_3 #contact_form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+#section_party_3 #contact_form input{
+    border: none;
+    padding: 15px 0;
+    border-radius: 3px;
+    display: block;
+}
+
+#section_party_3 #contact_form input::placeholder{
+    padding-left: 10px;
+}
+
+#section_party_3 #contact_form #submit_btn_15 {
+    padding: 15px 0;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    background-image: linear-gradient(#3ca4ff, #2f2cff);
+    transition: ease-out 0.2s;
+}
+
+#section_party_3 #contact_form #submit_btn_15:hover {
+    color: black;
+    transform: scale(1.02);
+    background-image: linear-gradient(#3ca4ff, #0300ab);
+}
+
+/* Section Footer */
+#section_party_4 {
+    display: flex;
+    justify-content: center;
+    background-color: #151515;
+    padding: 20px 0;
+}
+
+#section_party_4 .container .sixteen.columns {
+    display: flex;
+    width: var(--default-width);
+    justify-content: space-between;
+    color: var(--gray-text);
+}
+
+.container .sixteen.columns .socbuttons {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.pixfort_st {
+    font-weight: bold;
+    color: #3ca4ff;
+}
+
+
