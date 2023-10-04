@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Form 3</title>
     <link href="style.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 <div class="form-container">
@@ -13,21 +15,22 @@
             <label for="account">Account</label>
         </div>
         <div class="input-container">
-<!--            <i class="fas fa-user input-icon"></i>-->
+            <i class="fa fa-solid fa-user"></i>
+
             <input type="text" id="fullname" name="fullname" placeholder="Full Name">
         </div>
         <div class="input-container">
-<!--            <i class="fas fa-envelope input-icon"></i>-->
+            <i class="fa fas fa-envelope input-icon"></i>
             <input type="email" id="email"  name="email" placeholder="Email address">
         </div>
         <div class="input-container">
-<!--            <i class="fas fa-lock input-icon"></i>-->
+            <i class="fa fa-key input-icon"></i>
             <input type="password" id="password" name="password" placeholder="Password">
         </div>
     </div>
 
     <div class="form-zone">
-        <div class="input-container-collumn">
+        <div class="input-container-column">
             <div class="column-left">
                 <label for="dob">Date of Birth</label>
                 <div class="dob-container">
@@ -52,23 +55,26 @@
         </div>
         <div class="input-container-column">
             <div class="column-left">
-                <button  class="payment-button">Credit Card</button>
+                <button  class="payment-button"><i class="fa fa-cc-visa"></i>Credit Card</button>
             </div>
             <div class="column-right">
-                <button class="payment-button">Paypal</button>
+                <button class="payment-button"><i class="fa fa-cc-paypal"> </i>Paypal</button>
             </div>
         </div>
         <div class ="input-container">
+            <i class="fa fa-credit-card"> </i>
             <input type="text" id="card-number" placeholder="Card number">
 
         </div>
         <div class="input-container-inline">
             <div class="cvc-container">
+                <i class="fa fa-solid fa-user"></i>
+
                 <input type="text" id="card-cvc" placeholder="Card CVC">
             </div>
             <div class="buttons-container">
-                <button>Day & Month</button>
-                <button>Year</button>
+                <button class="buttons-container1" >01 Jan <i class="fa fas fa-angle-down"></i></button>
+                <button class="buttons-containe2">2015  <i class="fa fas fa-angle-down"> </i></button>
             </div>
         </div>
     </div>

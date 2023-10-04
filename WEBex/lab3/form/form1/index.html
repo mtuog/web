@@ -4,42 +4,54 @@
     <meta charset="UTF-8">
     <title>Form1</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>-->
+
 </head>
 <body>
 <div class="form-container">
     <h2 class="form-title">Contacts Us</h2>
     <form action="#" method="post">
-        <div class="form-group">
-            <label for="fullname">Full Name* :</label>
-            <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+        <div class="form-line">
+            <div class="form-group">
+                <label for="fullname">Full Name*:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+            </div>
         </div>
-        <div class="form-group">
-            <div style="display: flex; justify-content: space-between;">
-                <div style="flex: 1; margin-right: 40px;">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                </div>
-                <div style="flex: 1;">
-                    <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+        <div class="form-line">
+            <div class="form-group"  >
+                <label for="email">Email*:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+            </div>
+        </div>
+        <div class="form-line">
+            <div class="form-group service-dropdown">
+                <label for="service">Service:</label>
+                <div class="service-options">
+                    <button type="button" id="service" name="service">Please choose<i class="fa fa-arrows-v"></i></button>
+                    <div class="service-dropdown-content">
+                        <a href="#">Service Option 1</a>
+                        <a href="#">Service Option 2</a>
+                        <a href="#">Service Option 3</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="form-group service-dropdown">
-            <label for="service">Service:</label>
-            <div class="service-options">
-                <a href="#">Service Option 1</a>
-                <a href="#">Service Option 2</a>
-                <a href="#">Service Option 3</a>
+        <div class="form-line">
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" placeholder="Your message here" required></textarea>
             </div>
-            <input type="text" id="service" name="service" placeholder="Please chooses" required>
         </div>
-        <div class="form-group">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" placeholder="Your message here" required></textarea>
-        </div>
-        <div class="form-group">
-            <button type="submit" class="submit-button" >Submit </button>
+        <div class="form-line-submit">
+            <div class="form-group">
+                <button type="submit" class="submit-button">Submit <i class='fa fas fa-arrow-right'></i>
+                </button>
+            </div>
         </div>
     </form>
 </div>

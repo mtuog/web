@@ -1,3 +1,8 @@
+body
+{
+    background-image:  url(image/hoasen.jpg);
+    opacity: 1;
+}
 /* CSS for centering the form and other styles */
 .form-container {
     max-width: 400px;
@@ -6,8 +11,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0);
-
+    background-color: rgb(255, 255, 255);
+    /*background-image: url(image/hoasen.jpg);*/
 }
 
 .form-title {
@@ -66,7 +71,7 @@ input[type="password"]::placeholder {
     height: 30px; /* Set the desired height */
     border-radius: 100%; /* Make the images circular (if desired) */
     transition: transform 0.3s ease; /* Add a hover effect */
-    background-color: rgba(221, 221, 221, 0.58);
+    background-color: rgba(221, 221, 221, 0.55);
 }
 .social-icons a {
     margin: 0 10px;

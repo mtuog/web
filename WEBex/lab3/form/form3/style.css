@@ -4,7 +4,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
 }
 
@@ -20,19 +19,22 @@ body {
 .input-container {
     margin-bottom: 20px;
     margin-right: 35px;
+    display: flex;
+    align-items: baseline;
 }
-
+.input-icon {
+ margin-right: 10px}
 label {
     display: block;
     font-weight: bold;
     color: #7ED321;
-    margin-bottom: 20px;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="password"],
-input[type="radio"]{
+input[type="number"]
+{
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -40,91 +42,93 @@ input[type="radio"]{
 }
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
-input[type="password"]::placeholder
+input[type="password"]::placeholder,
+input[type="number"]::placeholder
 { color: #B8B8B8;
 }
 
-/* Thay đổi màu cho dòng có lớp "terms-row" */
 .terms-row {
-    color: #B8B8B8; /* Đổi màu văn bản thành màu đỏ */
+    color: #B8B8B8;
 }
 
 /* Add space between payment method buttons */
 .input-container-column {
     display: flex;
-    justify-content: center;
-    margin-right: -10px;
 }
 
-.input-container-column button {
-    flex: 1;
-    margin-right: 0px;
-}
-/* Style Date of Birth inputs */
 .dob-container input {
     width: 40px;
     padding: 8px;
     margin-right: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    height: 30px;
+}
+.gender-container
+{
+    display: flex
+}
+.gender-container #male, .gender-container #female  {
+    flex:1;
 }
 
-
-/* Style Zone 3 (Payment details) */
-.form-zone:nth-child(3) {
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 4px;
-    margin-top: 20px;
+.column-left,
+ .column-right {
+    flex: 1;
 }
 
-
-.input-container-collumn {
-    display: flex;
-}
-
-input-container-collumn.column-left,
-input-container-collumn .column-right {
-    flex: 2;
-}
-
-
-/* Style gender buttons */
-.gender-container {
-    display: flex; /* Make the buttons flex items */
-    /*align-items: center; !* Align buttons vertically in the middle *!*/
-}
-
-/* Style individual gender buttons */
 .gender-button {
     background-color: rgba(184, 184, 184, 0.23);
     color: #B8B8B8;
-    border: none;
-    border-radius: 4px;
+    border: rgba(221, 221, 221, 0.79) 2px solid;
+    border-radius: 5px;
     cursor: pointer;
     padding: 12px;
+    height: 50px;
 
 }
-
 /* Style the buttons on hover */
 .gender-button:hover {
     background-color: #7ED321;
+    color: white;
 }
 .input-container-inline {
     display: flex;
 }
-.input-container-inline .buttons-container {
+.input-container-inline .cvc-container
+/*.input-container-inline.buttons-container*/
+{
+    flex:1;
+    align-items: baseline;
     display: flex;
 }
-.payment-button {
+.cvc-container{
+    margin-right: 10px;
+}
+.input-container-inline .buttons-container {
+    flex:1;
+    display: flex;
+    margin-left: 30px;
+}
+.buttons-container .buttons-container1,
+.buttons-container .buttons-container2 {
+    flex:1;
+}
+    /* Set a specific width for payment buttons to match card number input */
+ .payment-button {
+    width: 100%; /* Match the width of the input field */
     background-color: rgba(184, 184, 184, 0.23);
     color: #B8B8B8;
-    border: none;
+     border: rgba(221, 221, 221, 0.79) 2px solid;
     border-radius: 4px;
     cursor: pointer;
     padding: 15px;
-
+    margin-bottom: 20px;
 }
 .payment-button:hover{
     background-color: #7ED321;
+    color: white;
+}
+.fa {
+    margin-bottom: -50px;
 }
