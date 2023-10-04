@@ -1,12 +1,13 @@
 body
 {
     background-image:  url(image/hoasen.jpg);
-    opacity: 1;
+    opacity: 0.9;
 }
 /* CSS for centering the form and other styles */
 .form-container {
     max-width: 400px;
-    margin: 0 auto;
+    max-height: 1000px;
+    margin: 200px auto 200px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -32,6 +33,7 @@ input[type="password"] {
     border-radius: 10px;
     text-decoration-color: #735578;
     font-weight: bold;
+    box-shadow: 1px 1px 10px  rgba(189, 89, 215, 0.4);
 }
 
 input[type="text"]::placeholder,
@@ -39,6 +41,9 @@ input[type="password"]::placeholder {
     color:#9A869E;
     font-weight: bold;
     font-size: 15px;
+    /* Applying a simple box shadow */
+
+
 }
 .submit-button {
     display: inline-block;
@@ -50,6 +55,7 @@ input[type="password"]::placeholder {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-left: 50px;
+    box-shadow: 0px 20px 20px  rgba(189, 89, 215, 0.5);
 }
 
 .submit-button:hover {
