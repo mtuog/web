@@ -1,0 +1,31 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: rgba(51, 51, 51, 0.87);
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    margin: 20px;
+    padding: 10px;
+}
+
+button {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}

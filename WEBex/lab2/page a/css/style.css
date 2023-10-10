@@ -1,101 +1,3 @@
-/* Đổi màu nền của phần tiêu đề */
-.header_style {
-    background-color: #FFFFFF; /* Màu xanh dương */
-}
-
-/* Đổi màu văn bản trong tiêu đề */
-.header_style .pix_text {
-    color: #DDDDDD; /* Màu trắng */
-}
-/* Sử dụng Flexbox để chia "one-third column alpha" và "two-thirds column omega" thành hai cột */
-     .header_style .container .sixteen.columns{
-    display: flex;
-    justify-content: space-between; /* Đặt khoảng cách đều giữa các cột */
-}
-
-/* Chia cột bên trái là "one-third column alpha" */
-.one-third.column.alpha {
-    flex: 1; /* Chia một phần ba của không gian */
-    text-align: center;
-}
-
-/* Chia cột bên phải là "two-thirds column omega" */
-.two-thirds.column.omega {
-    flex: 2; /* Chia hai phần ba của không gian */
-}
-/* Sử dụng Flexbox để chia "two-thirds column omega" thành hai cột */
-.two-thirds.column.omega {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-/* Chia cột bên trái là "pix_text" */
-.two-thirds.column.omega .pix_text {
-    flex: 1; /* Chia phần bên trái một phần ba */
-    order: -1;
-}
-
-/* Chia cột bên phải cho 3 thẻ a nằm liền kề */
-.two-thirds.column.omega .social_button {
-    flex: 0; /* Chia phần bên phải hai phần ba */
-    display: flex;
-    order: 1;
-    margin-right: 0px ;
-
-}
-.two-thirds.column.omega .social_button:not(:last-child) {
-    margin-right: 10px; /* Khoảng cách giữa các thẻ <a> */
-}
-
-/*.big_padding {*/
-/*    background-color: rgba(51, 51, 51, 0.87);*/
-/*}*/
-/*.big_padding .container .sixteen.columns {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*}*/
-/*.big_padding p { color: white;}*/
-/*#section_normal_6 .container {*/
-/*    display: grid;*/
-/*}*/
-/*.pixfort_normal_1 {*/
-/*    background-color: #EEEEEE;*/
-/*}*/
-/* .L1_style,*/
-/*.L2_style  {*/
-/*     display: flex;*/
-/*     justify-content: center;*/
-/*     align-items: center;*/
-/*}*/
-/* .box_1 {*/
-/*     display: flex;*/
-/*     padding: 20px;*/
-/*}*/
-/* .b_style {*/
-/*    flex : 1;*/
-/*     margin-left: -10px;*/
-/* }*/
-/* .txt_style {*/
-/*     flex: 1;*/
-/*     margin-right: -10px;*/
-/* }*/
-/*.box_2 {*/
-/*  display: flex;*/
-/*}*/
-
-
-/*!* Thiết lập footer sử dụng flexbox và flex theo chiều dọc *!*/
-/*#section_agency_5 .foot_st {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center; !* Căn giữa các phần tử theo chiều ngang *!*/
-/*    text-align: center; !* Căn giữa văn bản theo chiều ngang *!*/
-/*    margin-bottom: 10px;*/
-/*    padding: 20px;*/
-/*    ;*/
-/*}*/
-
 * {
     padding: 0;
     margin: 0;
@@ -108,45 +10,80 @@ body {
     color: rgb(0, 0, 0);
 }
 
-h3 {
-    font-size: 20px;
+.header_style {
+    background-color: rgba(221, 221, 221, 0.58);
 }
-
-h5 {
-    font-size: 12px;
-    font-weight: normal;
-}
-
-#section_normal_1 .container {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-#section_normal_1 .sixteen.columns {
-    width: 1200px;
+/* header */
+.header_style .container .sixteen.columns{
     display: flex;
     justify-content: space-between;
 }
 
-#section_normal_1 .icon-box {
+.one-third.column.alpha {
+    flex: 1;
+    text-align: center;
+}
+
+.two-thirds.column.omega {
+    flex: 1;
+}
+
+.two-thirds.column.omega {
     display: flex;
+    justify-content: center;
+    align-content: center;
     align-items: center;
-    gap: 20px;
-    color: darkgray;
 }
 
-#section_normal_1 .icon-box .icons{
+
+.two-thirds.column.omega .pix_text {
+    flex: 1;
+    order: -1;
+    margin-right: 20px;
+    color: #babbbc;
+}
+
+.two-thirds.column.omega .social_button {
+    flex: 0;
     display: flex;
-    gap: 5px;
+    order: 1;
+    margin-right: 20px ;
+
 }
 
-#section_normal_4_2 .sixteen.columns {
-    background-color: darkgray;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 80px 0;
+h3 {
+    font-size: 30px;
 }
+
+h5 {
+    font-size: 20px;
+    font-weight: normal;
+}
+ /*get free sp*/
+    /*#section_normal_1 .container {*/
+    /*    display: flex;*/
+    /*    justify-content: center;*/
+    /*    padding: 10px 0;*/
+    /*}*/
+
+    /*#section_normal_1 .sixteen.columns {*/
+    /*    width: 1200px;*/
+    /*    display: flex;*/
+    /*    justify-content: space-between;*/
+    /*}*/
+
+    /*#section_normal_1 .icon-box {*/
+    /*    display: flex;*/
+    /*    align-items: center;*/
+    /*    gap: 20px;*/
+    /*    color: darkgray;*/
+    /*}*/
+
+    /*#section_normal_1 .icon-box .icons{*/
+    /*    display: flex;*/
+    /*    gap: 5px;*/
+    /*}*/
+
 
 #section_normal_4_2 .sixteen.columns {
     background-color: #333333;
@@ -204,37 +141,45 @@ h5 {
     border-radius: 5px;
     border-bottom: 4px solid #249aba;
     transition: linear 1ms;
+    box-shadow: 5px 5px 20px rgba(45, 192, 232,1);
 }
 
 .pix_button:hover {
     border: 0;
     transform: translate(0, 3px);
-    background-color: #249aba;
+    background-color: rgba(103, 171, 201, 0.77);
 }
 
 #section_normal_6 .envato_unbounce .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /*display: grid;*/
+    /*grid-template-columns: auto auto;*/
     column-gap: 20px;
     row-gap: 40px;
+    display: flex;
+    flex-direction: column;
     background-color: #eeeeee;
     padding: 40px 0;
 }
 
-.envato_unbounce .container .L_container {
-    grid-column: 1/-1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-}
+/*.envato_unbounce .container {*/
+/*    !*grid-column: 1/-1;*!*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    gap: 15px;*/
+/*}*/
 
-.L_container .L1_style {
+.container .L1_style {
     color: #696969;
+    /*grid-row: 1/5;*/
+    justify-content: center;
+    text-align: center;
 }
 
-.L_container .L2_style {
-    color: #acacac
+.container .L2_style {
+    color: rgba(51, 51, 51, 1);
+    justify-content: center;
+    text-align: center;
 
 }
 
@@ -246,19 +191,26 @@ h5 {
     color: #979797;
 }
 
-.eight.columns.stbox.alpha{
-    justify-self: end;
+.divide{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
+/*.eight.columns.stbox.alpha{*/
+/*    justify-self: end;*/
 
-.eight.columns.stbox.omega{
-    justify-self: start;
-}
+/*}*/
+
+/*.eight.columns.stbox.omega{*/
+/*    !*justify-self: start;*!*/
+/*}*/
 
 .eight.columns.stbox .pix_builder_bg{
     display: flex;
     align-items: center;
     gap: 15px;
     background-color: #ffffff;
+    margin-right: 15px;
 }
 
 .eight.columns.stbox .pix_builder_bg .b_style{

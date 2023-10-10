@@ -1,112 +1,171 @@
-body {
-    border: #babbbc solid 2px;
-    max-width: 600px;
-    margin: 200px auto 200px auto;
+.formDangKy{
+    width: 759px;
+    height: 689px;
+    background-color: hsl(0deg 0% 90.2%);
+    margin: 20px auto;
 }
-.form-title {
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: bold ;
-}
-
-/* CSS for form container */
-.form-container {
-    max-width: 400px;
+.content{
+    width: 98%;
+    height: 98%;
+    background-color: hsl(0deg 0% 100%);
     margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #F7F7F7;
-    border-radius: 5px;
-}
-
-/* CSS for form lines */
-.form-line {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    border: #F7F7F7 solid 2px;
-    background-color: #F7F7F7;
+    position: relative;
+    top: 5px;
     border-radius: 5px;
 
 }
+.sub_content_1{
+    width: 88%;
+    height: auto;
+    margin: 0 auto;
 
-/* CSS for form groups */
-.form-group {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
+    text-align: center;
+    position: relative;
+    top: 30px;
 }
-
-/* CSS for labels */
-.form-group label {
+.sub_content_1 span{
+    font-size: 30px;
+}
+.sub_content_2{
+    width: 88%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+    background-color: hsl(0deg 0% 96.86%);
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 2px rgba(177, 172, 172, 0.62) solid;
+}
+.lable_content_2{
     margin-bottom: 10px;
-    font-weight: bold;
 }
-/* CSS for inputs and button */
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group input[type="tel"],
-.form-group input[type="button"],
-.form-group textarea {
-    padding: 10px;
-    border: 1px solid rgb(247, 247, 247);
-    border-radius: 5px;
-    background-color: #F7F7F7;
+.lable_content_2 span {
+    font-size: 10px;
 }
-
-/* CSS for the "Please choose" button */
-.form-group button#service
-{ font-weight: bold;
-    padding: 10px;
-    background-color: #F7F7F7;
-    color: black;
+.name_content_2  {
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: left
-
+    width: 300px;
+    background-color: hsl(0deg 0% 96.86%) ;
 }
-
-/* CSS for the submit button */
-.form-group button.submit-button {
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
+.name_content_3  {
     border: none;
+    width: 300px;
+    background-color: hsl(0deg 0% 96.86%) ;
+}
+.name_content_4  {
+    border: none;
+    width: 300px;
+    background-color: hsl(0deg 0% 96.86%) ;
+}
+.sub_content_3{
+
+    width: 40%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    left: -179px;
+    top: 70px;
+    background-color: hsl(0deg 0% 96.86%);
+    padding: 15px 10px;
     border-radius: 5px;
-    cursor: pointer;
-    width: 100%;
+    border: 2px rgba(177, 172, 172, 0.62) solid;
 }
 
-/* CSS for the submit button on hover */
-.form-group button.submit-button:hover {
-    background-color: rgba(51, 51, 51, 0.5);
-    color: #dddddd;
+.sub_content_4{
+    width: 40%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    right: -175px;
+    top: -5px;
+    background-color: hsl(0deg 0% 96.86%);
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 2px rgba(177, 172, 172, 0.62) solid;
 }
 
-.service-dropdown-content {
+.sub_content_5{
+    width: 88%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    top: 16px;
+    background-color: hsl(0deg 0% 96.86%);
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 2px rgba(177, 172, 172, 0.62) solid;
+}
+.fa-solid.fa-angle-up{
     position: absolute;
-    display: none;
-    background-color: #F7F7F7;
-
+    right: 40px;
+    top:25px;
 }
-.service-options:hover .service-dropdown-content {
-    display: block;
-}
-/* CSS for service dropdown options */
-.service-dropdown-content a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #333;
-    transition: background-color 0.2s;
+.fa-solid.fa-chevron-down{
+    position: absolute;
+    right: 39px;
+    top:35px;
 }
 
-.service-dropdown-content a:hover{
-    background-color: rgb(225, 222, 78);
-    color: #7cc576;
+.sub_content_6{
+
+    width: 88%;
+    height: 120px;
+    position: relative;
+    margin: 0 auto;
+    top: 40px;
+
+    background-color: hsl(0deg 0% 100%);
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 2px rgba(177, 172, 172, 0.62) solid;
+
 }
-.fa-arrows-v {
-    display: block;
-    margin-left: 267px;
+.sub_content_7{
+    width: 88%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    top: 80px;
+    background-color: hsl(0deg 0% 20%);
+    padding: 15px 10px;
+    border-radius: 50px;
+    border: 2px rgba(177, 172, 172, 0.62) solid;
+    text-align: center;
+}
+.label_message{
+    position: absolute;
+    top: 30px;
+
+}
+.text-area{
+    border-color: white;
+}
+.invalid{
+    border: red 1px solid;
+    background-color: rgba(255, 0, 0, 0.48);
+}
+.errorName{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    color: red;
+}
+.errorEmail{
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    color: red;
+}
+.errorPhone{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    color: red;
+}
+.errorContent{
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    color: red;
 }

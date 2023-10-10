@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+textarea, input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+
+
+}
+
+#result {
+    font-weight: bold;
+}

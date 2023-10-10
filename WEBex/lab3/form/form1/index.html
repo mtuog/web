@@ -1,59 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Form1</title>
-    <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>-->
+<!doctype html>
+<html class="no-js" lang="">
 
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.min.css">
+    <meta name="theme-color" content="#fafafa">
 </head>
-<body>
-<div class="form-container">
-    <h2 class="form-title">Contacts Us</h2>
-    <form action="#" method="post">
-        <div class="form-line">
-            <div class="form-group">
-                <label for="fullname">Full Name*:</label>
-                <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
-            </div>
+<div class="formDangKy">
+    <div class="content">
+        <div class="sub_content_1">
+            <span>Contact Us</span>
         </div>
-        <div class="form-line">
-            <div class="form-group"  >
-                <label for="email">Email*:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
-            </div>
+        <div class="sub_content_2">
+            <div class="lable_content_2"><span>FULL NAME *</span></div>
+            <input onblur="validate_of_Name_Blur()" oninput="validate_of_Name_onInput()" class="name_content_2" type="text" placeholder="Enter your name">
+            <span class="errorName"></span>
         </div>
-        <div class="form-line">
-            <div class="form-group service-dropdown">
-                <label for="service">Service:</label>
-                <div class="service-options">
-                    <button type="button" id="service" name="service">Please choose<i class="fa fa-arrows-v"></i></button>
-                    <div class="service-dropdown-content">
-                        <a href="#">Service Option 1</a>
-                        <a href="#">Service Option 2</a>
-                        <a href="#">Service Option 3</a>
-                    </div>
-                </div>
-            </div>
+        <div class="sub_content_3">
+            <div class="lable_content_2"><span>EMAIL *</span></div>
+
+            <input oninput="validate_of_Email_onInput()" onblur="validate_of_Email_Blur()" class="name_content_3" type="text" placeholder="Enter Your Email">
+            <span class="errorEmail"></span>
         </div>
-        <div class="form-line">
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="6" placeholder="Your message here" required></textarea>
-            </div>
+        <div class="sub_content_4">
+            <div class="lable_content_2"><span>PHONE *</span></div>
+
+            <input onblur="validate_of_Phone_Blur()" oninput="validate_of_Phone_onInput()" class="name_content_4" type="text" placeholder="Enter Your Phone">
+            <span class="errorPhone"></span>
         </div>
-        <div class="form-line-submit">
-            <div class="form-group">
-                <button type="submit" class="submit-button">Submit <i class='fa fas fa-arrow-right'></i>
-                </button>
+        <div class="sub_content_5">
+            <div class="lable_content_2"><span>NEEDED SERVICES *</span></div>
+            <div class="name_content_2"><span style="color: black"></span>
+                <select name="" >
+                    <option value="" disabled selected >Please chooses</option>
+                    <option>Service 1</option>
+                    <option>Service 2</option>
+                    <option>Service 3</option>
+                </select>
             </div>
+            <i class="fa-solid fa-angle-up" style="color: #1d1e20;"></i>
+            <i class="fa-solid fa-chevron-down" style="color: #1b1c1d;"></i>
         </div>
-    </form>
+        <div class="sub_content_6">
+            <div class="lable_content_2"><span>MEESAGE *</span></div>
+
+            <textarea onblur="validate_of_Content_Blur()" oninput="validate_of_Cotent_onInput()" class="text-area" id="" cols="75" rows="5" placeholder="Your message here"></textarea>
+            <span class="errorContent"></span>
+        </div>
+        <div class="sub_content_7">
+            <input class="NutNhan" type="submit" style="color: white; background-color:hsl(0deg 0% 20%) " value="Submit"></input>
+            <i class="fa-solid fa-arrow-right" style="color: white;"></i>
+        </div>
+    </div>
 </div>
+<script src="script.js"></script>
+<body>
+
+
 </body>
+
 </html>

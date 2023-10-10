@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.greeting-container {
+    text-align: center;
+}
+
+#greeting {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+}
