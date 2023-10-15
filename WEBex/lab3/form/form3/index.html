@@ -12,37 +12,29 @@
 <div class="form-container">
     <div class="form-zone">
         <div class="input-container">
-            <label for="account">Account</label>
+            <label >Account</label>
         </div>
         <div class="input-container">
-<!--            <div class="icons" >-->
             <i class="fa fa-solid fa-user"></i>
-<!--            </div>-->
-<!--            <div class="dinput">-->
             <input type="text" id="fullname" name="fullname" placeholder="Full Name">
-<!--            </div>-->
-        </div>
+           <div> <span class="error-message" id="fullname-error"></span>    </div>    </div>
+
         <div class="input-container">
-<!--            <div class="icons" >-->
             <i class="fa fas fa-envelope input-icon"></i>
-<!--            </div>-->
-<!--            <div class="dinput">-->
-            <input type="email" id="email"  name="email" placeholder="Email address"></div>
-<!--        </div>-->
+            <input type="email" id="email"  name="email" placeholder="Email address">
+         <div>   <span class="error-message" id="email-error"></span>    </div>     </div>
+
         <div class="input-container">
-<!--            <div class="icons" >-->
             <i class="fa fa-key input-icon"></i>
-<!--            </div>-->
-<!--            <div class="dinput">-->
             <input type="password" id="password" name="password" placeholder="Password">
-<!--            </div>-->
-        </div>
+          <div> <span class="error-message" id="password-error"></span>    </div>     </div>
+
     </div>
 
     <div class="form-zone">
         <div class="input-container-column">
             <div class="column-left">
-                <label for="dob">Date of Birth</label>
+                <label >Date of Birth</label>
                 <div class="dob-container">
                     <input type="text" id="day" placeholder="DD">
                     <input type="text" id="month" placeholder="MM">
@@ -50,7 +42,7 @@
                 </div>
             </div>
             <div class="column-right">
-                <label for="gender">Gender</label>
+                <label >Gender</label>
                 <div class="gender-container">
                     <button class="gender-button" id="male" value="male">Male</button>
                     <button class="gender-button" id="female" value="female">Female</button>
@@ -61,7 +53,7 @@
 
     <div class="form-zone">
         <div class="input-container">
-            <label for="paymentdetail">Payment detail</label>
+            <label >Payment detail</label>
         </div>
         <div class="input-container-column">
             <div class="column-left">
@@ -74,6 +66,7 @@
         <div class ="input-container">
             <i class="fa fa-credit-card"> </i>
             <input type="text" id="card-number" placeholder="Card number">
+         <div>   <span class="error-message" id="card-number-error"></span> </div>
 
         </div>
         <div class="input-container-inline">
@@ -81,12 +74,12 @@
                 <i class="fa fa-solid fa-user"></i>
 
                 <input type="text" id="card-cvc" placeholder="Card CVC">
+             <div>   <span class="error-message" id="card-cvc-error"></span> </div>
+
             </div>
             <div class="buttons-container">
                 <button class="buttons-container1" >01 Jan <i class="fa fas fa-angle-down"></i></button>
                 <button class="buttons-containe2">2015  <i class="fa fas fa-angle-down"> </i></button>
-<!--                <input type="" id="monthanday">-->
-<!--                <input type="datetime-local" id="years">-->
 
             </div>
         </div>
@@ -94,13 +87,16 @@
 
     <div class="form-zone terms-row">
         <div class="input-container">
-            <label for="tad">Terms and Conditions </label>
+            <label >Terms and Conditions </label>
         </div>
         <div>
         <input type="checkbox" id="terms"> I accept Terms and Conditions for signing up to this deivce, and here by confirm I have read the privacy policy.
-    </div>
+          <div> <span class="error-message" id="terms-error"></span> </div>
+
+        </div>
     </div>
 </div>
-<script src="script.js"> </script>
+
 </body>
+<script src="script.js"> </script>
 </html>
