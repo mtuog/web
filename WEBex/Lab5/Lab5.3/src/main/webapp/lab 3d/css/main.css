@@ -1,0 +1,391 @@
+.root{
+  width: 574px;
+  height: 874px;
+  background-color: hsl(0deg 0% 89.02%);
+  position: relative;
+  margin: 20px auto;
+}
+.content{
+  position: relative;
+  width: 98%;
+  height: 98%;
+  background-color: hsl(0deg 0% 100%);
+  margin: 5px;
+  top: 8px;
+}
+.label1{
+  position: absolute;
+  height: 6px;
+  width: 20px;
+  top: 20px;
+  left: 20px;
+
+}
+.label1 span {
+  color: #16d016;
+  font-weight: 700;
+}
+.input1{
+  position: absolute;
+  width: 500px;
+  height: 45px;
+  top: 50px;
+  left: 20px;
+  background-color: hsl(0deg 0% 97.65%);
+  border: 1px solid rgba(0, 0, 0, 0.62);
+
+}
+.errorFullName{
+  position: absolute;
+  color: red;
+  font-size: 14px;
+  top: 100px;
+  left: 20px;
+
+}
+
+.lineUp{
+  width: 1px;
+  height: 25px;
+  background-color: rgba(128, 128, 128, 0.68);
+position: absolute;
+  left: 50px;
+  top:10px
+
+}
+.fa-solid.fa-user {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 25px;
+  top:20px;
+
+}
+.inputName{
+  position: absolute;
+  top: 12px;
+  left: 60px;
+  border: none;
+  width: 400px;
+  background-color: hsl(0deg 0% 97.65%);
+}
+.input2{
+  position: absolute;
+  width: 500px;
+  height: 45px;
+  top: 130px;
+  left: 20px;
+  background-color: hsl(0deg 0% 97.65%);
+  border: 1px solid rgba(0, 0, 0, 0.62);
+}
+.lineUp2{
+  width: 1px;
+  height: 25px;
+  background-color: rgba(128, 128, 128, 0.68);
+  position: absolute;
+  left: 50px;
+  top:  13px
+}
+.fa-solid.fa-envelope{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 25px;
+  top:20px;
+}
+.inputEmail{
+  position: absolute;
+  top: 12px;
+  left: 60px;
+  border: none;
+  width: 400px;
+  background-color: hsl(0deg 0% 97.65%);
+}
+.input3{
+  position: absolute;
+  width: 500px;
+  height: 45px;
+  top: 200px;
+  left: 20px;
+  background-color: hsl(0deg 0% 97.65%);
+  border: 1px solid rgba(0, 0, 0, 0.62);
+}
+.inputPassword{
+  position: absolute;
+  top: 12px;
+  left: 60px;
+  border: none;
+  width: 400px;
+  background-color: hsl(0deg 0% 97.65%);
+}
+.fa-solid.fa-lock{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 25px;
+  top:20px;
+}
+.lineUp3{
+  width: 1px;
+  height: 25px;
+  background-color: rgba(128, 128, 128, 0.68);
+  position: absolute;
+  left: 50px;
+  top:  13px
+}
+.dateOfBirth{
+  position: absolute;
+  height: 6px;
+  width: 170px;
+  top: 270px;
+  left: 20px;
+}
+.dateOfBirth span{
+  color: #16d016;
+  font-weight: 700;
+}
+
+.dateInput{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 40px;
+}
+.monthInput{
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 40px;
+}
+.yearInput{
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  width: 50px;
+}
+.gender{
+  position: absolute;
+  height: 6px;
+  width: 100px;
+  top: 270px;
+  left: 300px;
+}
+.gender span{
+  color: #16d016;
+  font-weight: 700;
+}
+.btn {
+  display: none; /* Ẩn input radio */
+}
+.btn-label {
+  padding: 10px 20px;
+  background-color: #ccc;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+/* Tạo kiểu cho nút đã chọn */
+.btn:checked + .btn-label {
+  background-color: #16d016;
+  color: white;
+}
+#buttonMale{
+  position: relative;
+  left: 0px;
+  bottom: 20px;
+  top:20px;
+}
+#buttonFemale{
+  position: relative;
+  top:4px;
+  left: 75px;
+}
+.paymentDetails{
+  position: absolute;
+  height: 6px;
+  width: 150px;
+  top: 340px;
+  left: 20px;
+}
+.paymentDetails span{
+  color: #16d016;
+  font-weight: 700;
+}
+#button3{
+  position: relative;
+  left: 0px;
+  bottom: 20px;
+  top:20px;
+}
+#button4{
+  position: relative;
+  top:4px;
+  left: 75px;
+}
+.btn1 {
+  display: none; /* Ẩn input radio */
+}
+.btn-label1 {
+  padding: 10px 20px;
+  background-color: #ccc;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+/* Tạo kiểu cho nút đã chọn */
+.btn1:checked + .btn-label1 {
+  background-color: #16d016;
+  color: white;
+}
+#buttonCreditCard{
+ position: absolute;
+  width: 150px;
+  left: 51px;
+  top: 60px;
+  z-index: 1;
+  text-align: center;
+
+}
+#buttonCreditCard span{
+  color: white;
+}
+#buttonPaypal{
+  position: absolute;
+  left: 239px;
+  top: 60px;
+  width: 150px;
+  z-index: 1;
+  text-align: center;
+}
+#buttonPaypal span{
+  color: white;
+}
+.fa-brands.fa-cc-visa{
+  position: absolute;
+  top: 70px;
+  left: 80px;
+  z-index: 2;
+
+}
+.fa-brands.fa-cc-paypal{
+  position: absolute;
+  top: 70px;
+  left: 280px;
+  z-index: 2;
+}
+.input4{
+  position: absolute;
+  width: 500px;
+  height: 45px;
+  top: 450px;
+  left: 20px;
+  background-color: hsl(0deg 0% 97.65%);
+  border: 1px solid rgba(0, 0, 0, 0.62);
+}
+.inputCardNumber{
+  position: absolute;
+  top: 12px;
+  left: 60px;
+  border: none;
+  width: 400px;
+  background-color: hsl(0deg 0% 97.65%);
+}
+.fa-solid.fa-id-card {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 25px;
+  top:20px;
+}
+.input5{
+  position: absolute;
+  width: 192px;
+  height: 45px;
+  left: 20px;
+  top: 540px;
+  background-color: hsl(0deg 0% 97.65%);
+  border: 1px solid rgba(0, 0, 0, 0.62);
+}
+.inputCardCVC{
+  position: absolute;
+  top: 15px;
+  left: 60px;
+  border: none;
+  width: 120px;
+  background-color: hsl(0deg 0% 97.65%);
+  z-index: 10;
+}
+.button_Year_CardCVC{
+  position: absolute;
+  width: 192px;
+  height: 45px;
+  left: 50px;
+  top: 540px;
+}
+.value_Month{
+  position: absolute;
+
+  left: 180px;
+  height: 45px;
+  width: 120px;
+}
+.value_Year{
+  position: absolute;
+  left: 300px;
+  height: 45px;
+  width: 120px;
+}
+.label_Terms_and_Conditions{
+  position: absolute;
+  height: 6px;
+  width: 200px;
+  top: 700px;
+  left: 20px;
+}
+.label_Terms_and_Conditions span{
+  color: #16d016;
+  font-weight: 700;
+}
+.agree_Condition{
+  position: absolute;
+  height: 6px;
+  width: 500px;
+  top: 750px;
+  left: 20px;
+}
+.agree_Condition #myCheckbox{
+  position: absolute;
+}
+.agree_Condition span {
+  position: absolute;
+  left: 20px;
+  color:  rgba(128, 128, 128, 0.68);
+}
+.invalid {
+  border: 1px red solid;
+}
+.errorEmail{
+  position: absolute;
+  color: red;
+  font-size: 14px;
+  top: 180px;
+  left: 20px;
+}
+.errorPassword{
+  position: absolute;
+  color: red;
+  font-size: 14px;
+  top: 250px;
+  left: 20px;
+}
+.errorCardNumber{
+  position: absolute;
+  color: red;
+  font-size: 14px;
+  top: 500px;
+  left: 20px;
+}
+.errorCardCVC{
+  position: absolute;
+  color: red;
+  font-size: 14px;
+  top: 600px;
+  left: 20px;
+}
+.nutSubmit{
+
+}
